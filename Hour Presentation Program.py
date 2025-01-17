@@ -1,4 +1,5 @@
 # Hour Presentation Program (with error input checking)
+# Exercise 10 (variables-operators)
 while True:
     hours = input("Enter the amount of hours: ").strip()
     minutes = input("Enter the amount of minutes: ").strip()
