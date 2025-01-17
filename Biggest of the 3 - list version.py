@@ -1,6 +1,7 @@
 # Biggest of the 3 - list version
 # This is a program that takes 3 numbers as inputs and appends the numbers if they are digits on the list
 # Then it checks which number is bigger and prints the result
+# exercise 7 (Lists)
 a = input("Give the first number: ").strip()
 b = input("Give the second number: ").strip()
 c = input("Give the third number: ").strip()
