@@ -1,4 +1,5 @@
 # Numbers Summary: while loop (list-version)
+# Exercise 3 (while)
 i=0
 my_list = []
 summary = 0
