@@ -2,6 +2,7 @@
 # This program is a representing of 1st grade equation
 # Equation: ax+b=0 if a==0 there is no solution
 # In any other case the solution comes from the result of x=-b/a 
+# Exercise 11 (If)
 a = input("Enter a: ").strip()
 b = input("Enter b: ").strip()
 if a.isdigit() and b.isdigit():
