@@ -1,5 +1,6 @@
 # Numbers sorting (list version) - float conversion
 # This program does not work with float input
+# Exercise 2 (Lists)
 while True:
     item1 = input("Enter the 1st number: ").strip()
     item2 = input("Enter the 2nd number: ").strip()
