@@ -1,4 +1,5 @@
 # Square numbers (while loop with input check)
+# Exercise 1 (While)
 while True:
     num = input("Enter a number or quit to exit: ").strip().lower()
     if num.isdigit():
