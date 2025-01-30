@@ -1,11 +1,11 @@
-# Game: Rock-Paper-Sciccors with Score (Lesson 8: Exercise 9) - Edition Self
+# Game: Rock-Paper-Scissors with Score (Lesson 8: Exercise 9) - Edition Self
 from random import randrange
 from datetime import datetime 
 from random import seed
 
 seed(datetime.now())
 
-cards = ["paper", "sciccors", "rock"]
+cards = ["paper", "scissors", "rock"]
 
 
 score = [0,0]
@@ -25,7 +25,7 @@ while score[0] >= 3 or score[1] <= 3:
                 if user == 0:
                     print("Draw!")
                 elif user == 1:
-                    print("Computer picked paper and Player picked sciccors!")
+                    print("Computer picked paper and Player picked scissors!")
                     print("Player Wins!")
                     score[0] += 1
                 elif user == 2:
@@ -33,16 +33,16 @@ while score[0] >= 3 or score[1] <= 3:
                     print("Computer Wins!")
                     score[1] += 1
                     
-            # Case 2 - Computer Sciccors
+            # Case 2 - Computer Scissors
             elif computer == 1:
                 if user == 0:
-                    print("Computer picked sciccors and Player picked paper!")
+                    print("Computer picked scissors and Player picked paper!")
                     print("Computer Wins!")
                     score[1] += 1
                 elif user == 1:
                     print("Draw!")
                 elif user == 2:
-                    print("Computer picked sciccors and Player picked rock!")
+                    print("Computer picked scissors and Player picked rock!")
                     print("Player Wins!")
                     score[0] += 1
                     
@@ -53,7 +53,7 @@ while score[0] >= 3 or score[1] <= 3:
                     print("Player Wins!")
                     score[0] += 1
                 elif user == 1:
-                    print("Computer picked rock and Player picked sciccors!")
+                    print("Computer picked rock and Player picked scissors!")
                     print("Computer Wins!")
                     score[1] += 1
                 elif user == 2:
