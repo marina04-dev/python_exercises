@@ -1,4 +1,4 @@
-# Game: Rock-Paper-Sciccors - Edition Teacher(2)
+# Game: Rock-Paper-Scissors - Edition Teacher(2)
 from random import seed
 from random import randrange
 from datetime import datetime  
