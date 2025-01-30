@@ -1,4 +1,4 @@
-# Game: Rock-Paper-Sciccors with Score (Lesson 8: Exercise 8) - Edition Self
+# Game: Rock-Paper-Sciccors with Score (Lesson 8: Exercise 9) - Edition Self
 from random import randrange
 from datetime import datetime 
 from random import seed
